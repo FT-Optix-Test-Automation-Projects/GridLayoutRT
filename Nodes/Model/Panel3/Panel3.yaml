@@ -1,0 +1,22 @@
+Name: Panel3
+Type: FolderType
+Children:
+- Name: Columns
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["Auto","1fr","Auto"]
+- Name: Rows
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["Auto","1fr","Auto"]
+- Name: Panel4Height
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
+- File: Panel5GridLayout1/Panel5GridLayout1.yaml
+- File: Panel5InnerGridLayout1/Panel5InnerGridLayout1.yaml
+- File: DesktopWidget/DesktopWidget.yaml

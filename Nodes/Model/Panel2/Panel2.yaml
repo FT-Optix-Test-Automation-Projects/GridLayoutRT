@@ -1,0 +1,15 @@
+Name: Panel2
+Type: FolderType
+Children:
+- Name: Columns
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["1fr","1fr","Auto"]
+- Name: Rows
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: ["1fr","1fr","Auto"]

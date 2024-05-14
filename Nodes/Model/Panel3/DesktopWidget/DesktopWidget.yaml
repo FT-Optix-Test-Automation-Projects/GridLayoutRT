@@ -1,0 +1,9 @@
+Name: DesktopWidget
+Type: FolderType
+Children:
+- Name: ColumnStart
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: RowStart
+  Type: BaseDataVariableType
+  DataType: Int32
